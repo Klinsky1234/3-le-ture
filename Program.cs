@@ -56,14 +56,14 @@ void sel(int[] array)
 {
     for (int a = 0; a < array.Length - 1; a++)
     {
-        int minPosition = a;
+        int maxPosition = a;
         for (int b = a + 1; b < array.Length; b++)
         {
-            if (array[b] < array[minPosition]) minPosition = b;
+            if (array[b] > array[maxPosition]) maxPosition = b;
         }
         int temp = array[a];
-        array[a] = array[minPosition];
-        array[minPosition] = temp;
+        array[a] = array[maxPosition];
+        array[maxPosition] = temp;
     }
 }
 PrintArray(arr);
