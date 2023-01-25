@@ -3,7 +3,6 @@
 3. Повторять пока есть не отсортированные элементы
 6 8 3 2 1 4 5 7
 1 2 3 4 5 6 7 8
-*/
 int[] arr = { 6, 8, 3, 2, 1, 4, 5, 7 };
 // далее решаем задачу по выведению массива на экран 
 void PrintArray(int[] array)// в качестве аргумента будет приходить массив 
@@ -31,6 +30,40 @@ void sel(int[] array)// sel просто моё название для пере
         int temp = array[a]; // нам потребуется поменять значения нашей минимальной позиции с той позией которую мы нашли 
         array[a] = array[minPosition];// сюда мы кладём то что мы нашли , простой обмен 2х переменных местами
         array[minPosition] = temp; // сюда мы кладём тот элемент, который был временным 
+    }
+}
+PrintArray(arr);
+sel(arr);
+PrintArray(arr); */
+
+/*2. Найти позицию максимального элемента в неотсортированной части массива
+2. Произвести обмен этого значения со значением первой неотсортированной позиции
+3. Повторять пока есть не отсортированные элементы
+6 8 3 2 1 4 5 7
+8 7 6 5 4 3 2 1 
+*/
+int[] arr = { 6, 8, 3, 2, 1, 4, 5, 7 };
+void PrintArray(int[] array)
+{
+    int count = array.Length;
+    for (int i = 0; i < count; i++)
+    {
+        Console.Write($"{array[i]} ");
+    }
+    Console.WriteLine();
+}
+void sel(int[] array)
+{
+    for (int a = 0; a < array.Length - 1; a++)
+    {
+        int minPosition = a;
+        for (int b = a + 1; b < array.Length; b++)
+        {
+            if (array[b] < array[minPosition]) minPosition = b;
+        }
+        int temp = array[a];
+        array[a] = array[minPosition];
+        array[minPosition] = temp;
     }
 }
 PrintArray(arr);
