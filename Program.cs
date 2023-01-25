@@ -23,3 +23,9 @@ string Replace(string text, char oldV, char newV) // oldV- тот символ, 
 }
 string newText = Replace(text, ' ', '*');// запускаем стринг ньютекст присвоить реплейс текс и указываем, что на что меняем пробелы замеяем на * 
 Console.WriteLine(newText);
+// текст, который мы получили можем теперь обрабатывать
+Console.WriteLine();
+newText = Replace(newText, 'к', 'К');// теперь мы в качестве аргументов мы передаём наш обработанный текст, то что надо заменить, те символы, которые заменяем. 
+Console.WriteLine(newText);
+newText = Replace(newText, 'с', 'S');
+Console.WriteLine(newText);
