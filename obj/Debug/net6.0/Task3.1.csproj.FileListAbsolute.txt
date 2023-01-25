@@ -1,0 +1,15 @@
+D:\GB\C#\3\Task . text\Task3.1\bin\Debug\net6.0\Task3.1.exe
+D:\GB\C#\3\Task . text\Task3.1\bin\Debug\net6.0\Task3.1.deps.json
+D:\GB\C#\3\Task . text\Task3.1\bin\Debug\net6.0\Task3.1.runtimeconfig.json
+D:\GB\C#\3\Task . text\Task3.1\bin\Debug\net6.0\Task3.1.dll
+D:\GB\C#\3\Task . text\Task3.1\bin\Debug\net6.0\Task3.1.pdb
+D:\GB\C#\3\Task . text\Task3.1\obj\Debug\net6.0\Task3.1.csproj.AssemblyReference.cache
+D:\GB\C#\3\Task . text\Task3.1\obj\Debug\net6.0\Task3.1.GeneratedMSBuildEditorConfig.editorconfig
+D:\GB\C#\3\Task . text\Task3.1\obj\Debug\net6.0\Task3.1.AssemblyInfoInputs.cache
+D:\GB\C#\3\Task . text\Task3.1\obj\Debug\net6.0\Task3.1.AssemblyInfo.cs
+D:\GB\C#\3\Task . text\Task3.1\obj\Debug\net6.0\Task3.1.csproj.CoreCompileInputs.cache
+D:\GB\C#\3\Task . text\Task3.1\obj\Debug\net6.0\Task3.1.dll
+D:\GB\C#\3\Task . text\Task3.1\obj\Debug\net6.0\refint\Task3.1.dll
+D:\GB\C#\3\Task . text\Task3.1\obj\Debug\net6.0\Task3.1.pdb
+D:\GB\C#\3\Task . text\Task3.1\obj\Debug\net6.0\Task3.1.genruntimeconfig.cache
+D:\GB\C#\3\Task . text\Task3.1\obj\Debug\net6.0\ref\Task3.1.dll
